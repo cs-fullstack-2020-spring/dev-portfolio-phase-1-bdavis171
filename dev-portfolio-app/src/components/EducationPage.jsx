@@ -8,7 +8,7 @@ class EducationPage extends Component {
     render() { 
         return ( 
             <div>
-                
+                <h1>Education</h1>
             </div>
          );
     }
