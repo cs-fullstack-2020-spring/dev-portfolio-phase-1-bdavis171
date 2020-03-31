@@ -23,9 +23,15 @@ class WelcomePage extends Component {
         }
 
         else {
-            enterSite = <div>
-                <h1>Welcome</h1>
-                <button onClick={this.handleEnter}>Enter</button>
+            enterSite = <div id='welcome-container'>
+                <div id="welcome-header">
+                    <h1>Welcome, Visitor</h1>
+                </div>
+
+                <div id="enter-button">
+                    <button onClick={this.handleEnter}>Enter</button>
+                </div>
+                
             </div>
         }
 

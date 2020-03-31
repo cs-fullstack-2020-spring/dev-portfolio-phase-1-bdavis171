@@ -7,8 +7,14 @@ class SkillsPage extends Component {
     }
     render() { 
         return ( 
-            <div>
-                <h1>Skills</h1>
+            <div id='skills-container'>
+                <div id="skills-header">
+                    <h2>Skills</h2>
+                </div>
+                
+                <div id="skills-img">
+                    <img src="" alt="Developer Skills"/>
+                </div>
             </div>
          );
     }

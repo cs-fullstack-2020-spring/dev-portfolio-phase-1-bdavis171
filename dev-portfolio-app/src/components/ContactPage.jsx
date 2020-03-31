@@ -7,8 +7,10 @@ class ContactPage extends Component {
     }
     render() { 
         return ( 
-            <div>
-                <h1>Contact</h1>
+            <div id='contact-container'>
+                <div id="contact-header">
+                    <h2>Contacts</h2>
+                </div>
             </div>
          );
     }
