@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import WelcomePage from './WelcomePage';
+import './style.css';
 
 class AppContainer extends Component {
     constructor(props) {

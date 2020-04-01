@@ -25,7 +25,7 @@ class WelcomePage extends Component {
         else {
             enterSite = <div id='welcome-container'>
                 <div id="welcome-header">
-                    <h1>Welcome, Visitor</h1>
+                    <h1>Welcome, Visitor!</h1>
                 </div>
 
                 <div id="enter-button">
