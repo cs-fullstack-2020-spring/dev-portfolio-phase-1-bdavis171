@@ -14,10 +14,10 @@ class EducationPage extends Component {
 
                 <div id="education-description">
                     <div id="education-1">
-                        <h3>School</h3>
-                        <h4>Location</h4>
+                        <h3>CodeCrew Code School; 2020</h3>
+                        <h4>Memphis, TN</h4>
                         <ul>
-                            <li>Certificate or Degree</li>
+                            <li>Software Development Bootcamp</li>
                         </ul>
                     </div>
                 </div>
