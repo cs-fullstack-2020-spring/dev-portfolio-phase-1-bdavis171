@@ -175,3 +175,9 @@
   #html5{
     position: relative; top: -3%;
   }
+
+  #page-display{
+    width: 1585px;
+    height: 802.812px;
+    /* height: 681.5px; */
+  }
