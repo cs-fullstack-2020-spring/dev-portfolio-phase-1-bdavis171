@@ -30,7 +30,7 @@ class AboutPage extends Component {
                 isContact: false
             })
         }
-        else if (event.target.name === 'skills'){
+        else if (event.target.name === 'skills') {
             this.setState({
                 isAbout: false,
                 isSkils: true,
@@ -40,7 +40,7 @@ class AboutPage extends Component {
                 isContact: false
             })
         }
-        else if (event.target.name === 'projects'){
+        else if (event.target.name === 'projects') {
             this.setState({
                 isAbout: false,
                 isSkils: false,
@@ -50,7 +50,7 @@ class AboutPage extends Component {
                 isContact: false
             })
         }
-        else if (event.target.name === 'education'){
+        else if (event.target.name === 'education') {
             this.setState({
                 isAbout: false,
                 isSkils: false,
@@ -60,7 +60,7 @@ class AboutPage extends Component {
                 isContact: false
             })
         }
-        else if (event.target.name === 'resume'){
+        else if (event.target.name === 'resume') {
             this.setState({
                 isAbout: false,
                 isSkils: false,
@@ -70,7 +70,7 @@ class AboutPage extends Component {
                 isContact: false
             })
         }
-        else if (event.target.name === 'contact'){
+        else if (event.target.name === 'contact') {
             this.setState({
                 isAbout: false,
                 isSkils: false,
@@ -85,56 +85,58 @@ class AboutPage extends Component {
     // display page
     render() {
         let navigation;
-        if (this.state.isAbout){
-            navigation=<div id='about-container'>
+        if (this.state.isAbout) {
+            navigation = <div id='about-container'>
                 <div id="about-header">
                     <h2>About</h2>
                 </div>
 
                 <div id="about-img">
-                    <img src="/dragon.png" alt="Brandon Davis"/>
+                    <img src="/dragon.png" alt="Brandon Davis" />
                 </div>
 
                 <div id="about-description">
-                    <p>My name is Brandon Davis. I am a very passionate software developer. I've learned many coding tools, from HTML to C++, and I'm still learning even more. </p>
+                    <p>My name is Brandon Davis. I am a very passionate software developer. I've learned many coding tools, from HTML to C++, and I'm still learning even more. From developing games to designing webpages, I strive for all of my projects to be fun and easy to use.</p>
                 </div>
             </div>;
         }
-        else if (this.state.isSkils){
-            navigation=<SkillsPage/>;
+        else if (this.state.isSkils) {
+            navigation = <SkillsPage />;
         }
-        else if (this.state.isProjects){
-            navigation=<ProjectsPage/>;
+        else if (this.state.isProjects) {
+            navigation = <ProjectsPage />;
         }
-        else if (this.state.isEducation){
-            navigation=<EducationPage/>;
+        else if (this.state.isEducation) {
+            navigation = <EducationPage />;
         }
-        else if (this.state.isResume){
-            navigation=<ResumePage/>;
+        else if (this.state.isResume) {
+            navigation = <ResumePage />;
         }
-        else if (this.state.isContact){
-            navigation=<ContactPage/>;
+        else if (this.state.isContact) {
+            navigation = <ContactPage />;
         }
         return (
             <div id='general-container'>
-                <div id="navigation-bar">
-                <button onClick={this.handleNavigation} name='about'>About</button>
-                <button onClick={this.handleNavigation} name='skills'>Skills</button>
-                <button onClick={this.handleNavigation} name='projects'>Projects</button>
-                <button onClick={this.handleNavigation} name='education'>Education</button>
-                <button onClick={this.handleNavigation} name='resume'>Resume</button>
-                <button onClick={this.handleNavigation} name='contact'>Contact</button>
+                <div id="general-header">
+                    <div id="navigation-bar">
+                        <button onClick={this.handleNavigation} name='about'>About</button>
+                        <button onClick={this.handleNavigation} name='skills'>Skills</button>
+                        <button onClick={this.handleNavigation} name='projects'>Projects</button>
+                        <button onClick={this.handleNavigation} name='education'>Education</button>
+                        <button onClick={this.handleNavigation} name='resume'>Resume</button>
+                        <button onClick={this.handleNavigation} name='contact'>Contact</button>
+                    </div>
                 </div>
-                
+
                 <div id="page-display">
                     {navigation}
                 </div>
-                
+
                 <div id="footer">
                     <span>Brandon Davis 2020</span>
-                    <a href="https://github.com/bdavis171">GitHub</a>
+                    <a href="https://github.com/bdavis171" target='_blank'>GitHub</a>
                 </div>
-                
+
             </div>
         );
     }

@@ -13,15 +13,25 @@ class SkillsPage extends Component {
                 </div>
                 
                 <div id="skills-img">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png" alt="html5"/>
+                    <a href="https://en.wikipedia.org/wiki/HTML5" target='_blank'>
+                    <img src="https://www3.lunapic.com/do-not-link-here-use-hosting-instead/158583443050042189?6144725562" alt="html5" id='html5'/>
+                    </a>
 
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css3"/>
+                    <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target='_blank'>
+                    <img src="https://www3.lunapic.com/do-not-link-here-use-hosting-instead/158583443050042189?7160127127" alt="css3" id='css3'/>
+                    </a>
 
-                    <img src="https://wildcardcorp.com/image-repository/javascript-icon.png/@@images/image.png" alt="javascript"/>
+                    <a href="https://en.wikipedia.org/wiki/JavaScript" target='_blank'>
+                    <img src="https://www3.lunapic.com/do-not-link-here-use-hosting-instead/158583443050042189?6464397002" alt="javascript" id='javascript'/>
+                    </a>
 
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="react"/>
+                    <a href="https://en.wikipedia.org/wiki/React_(web_framework)" target='_blank'>
+                    <img src="https://www3.lunapic.com/do-not-link-here-use-hosting-instead/158583443050042189?4610231268" alt="react" id='react'/>
+                    </a>
 
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="c++"/>
+                    <a href="https://en.wikipedia.org/wiki/C%2B%2B" target='_blank'>
+                    <img src="https://www3.lunapic.com/do-not-link-here-use-hosting-instead/158583443050042189?8807962365" alt="c++" id='cplusplus'/>
+                    </a>
                 </div>
             </div>
          );
