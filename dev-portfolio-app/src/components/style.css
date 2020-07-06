@@ -139,13 +139,23 @@
   height: 374.88px;
 }
 
-#education-1 {
+#education-1, #education-2 {
   padding: 1%;
   text-align: left;
   position: relative;
   left: 25%;
   background-color: #1569C7;
   width: 50%;
+}
+
+#education-1 a{
+  position: relative; left: 72%;
+  bottom: 99px;
+}
+
+#education-2 a{
+  position: relative; left: 69%;
+  bottom: 99px;
 }
 
 #project-1-description, #project-2-description, #project-3-description {

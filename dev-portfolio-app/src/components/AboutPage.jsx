@@ -92,12 +92,12 @@ class AboutPage extends Component {
                 </div>
 
                 <div id="about-img">
-                    <img src="/dragon.png" alt="Brandon Davis" />
+                    <img src="/myimg.jpg" alt="Brandon Davis" />
                 </div>
 
                 <div id="about-description">
                     <p>My name is Brandon Davis, and I am a very passionate software developer born and raised right here in Memphis,TN. I attended CodeCrew Code School for 6 months, learning and refining my coding skills to be the best they can be.</p>
-                    <p>My goal is to design video games, though that doesn't mean I won't do other projects. From designin webpages to back-end functionality, I put my best effort into all my projects and work to surpass all expectations set before me.</p>
+                    <p>My goal is to design video games, though that doesn't mean I won't do other projects. From designing webpages to back-end functionality, I put my best effort into all my projects and work to surpass all expectations set before me.</p>
                 </div>
             </div>;
         }
