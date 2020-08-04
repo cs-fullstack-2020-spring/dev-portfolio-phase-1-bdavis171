@@ -22,15 +22,19 @@ class SkillsPage extends Component {
                     </a>
 
                     <a href="https://en.wikipedia.org/wiki/JavaScript" target='_blank'>
-                    <img src="/javascript-logo.jpg" alt="javascript" id='javascript'/>
+                    <img src="/javascript-logo.png" alt="javascript" id='javascript'/>
                     </a>
 
                     <a href="https://en.wikipedia.org/wiki/React_(web_framework)" target='_blank'>
-                    <img src="https://www3.lunapic.com/do-not-link-here-use-hosting-instead/158583443050042189?4610231268" alt="react" id='react'/>
+                    <img src="/react-logo.png" alt="react" id='react'/>
                     </a>
 
                     <a href="https://en.wikipedia.org/wiki/C%2B%2B" target='_blank'>
-                    <img src="https://www3.lunapic.com/do-not-link-here-use-hosting-instead/158583443050042189?8807962365" alt="c++" id='cplusplus'/>
+                    <img src="/cplusplus-logo.png" alt="c++" id='cplusplus'/>
+                    </a>
+
+                    <a href="https://en.wikipedia.org/wiki/Node.js" target='_blank'>
+                    <img src="/node-logo.png" alt="node" id='node'/>
                     </a>
                 </div>
             </div>

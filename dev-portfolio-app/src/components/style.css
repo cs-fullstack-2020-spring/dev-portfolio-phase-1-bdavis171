@@ -167,7 +167,7 @@
 
 #skills-img {
   padding: 1%;
-  width: 40%;
+  width: 49%;
   display: grid;
   grid-template-columns: repeat(3, 200px);
   position: relative;
@@ -198,30 +198,36 @@
 #css3 {
   position: relative;
   left: 6%;
-  top: 3%;
+  top: 1%;
 }
 
 #javascript {
   position: relative;
   left: 5%;
-  top: 3%;
+  top: 17%;
 }
 
 #react {
   position: relative;
-  left: -11%;
+  left: -21%;
   top: -1%;
 }
 
 #cplusplus {
   position: relative;
-  left: 20%;
-  top: 1%;
+  left: 6%;
+  top: 3%;
 }
 
 #html5 {
   position: relative;
-  top: -3%;
+  top: 1%;
+}
+
+#node{
+  position: relative;
+top: 10%;
+left: 22%;
 }
 
 #page-display {
