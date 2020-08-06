@@ -14,14 +14,14 @@ class ProjectsPage extends Component {
 
                 <div id="project-1">
                     <div id="project-1-img">
-                        <a href="https://github.com/bdavis171/Coding_Projects/tree/master/maze_game" target='_blank'>
-                        <img src="./maze_game-img.png" alt="Project 1"/>
+                        <a href="https://digimon-search.herokuapp.com/" target='_blank'>
+                        <img src="./digimon-search-app-image.png" alt="Project 1"/>
                         </a>
                     </div>
 
                     <div id="project-1-description">
-                        <p><em>Maze Game:</em></p>
-                        <p>This is game where you have to get through a maze, but you are only given which direction you can go. Use the buttons and make it out of the maze as best you can.</p>
+                        <p><em>Digimon Search App</em></p>
+                        <p>This application allows the user search for a Digimon by name, attribute, or generation, and if those Digimon appear in the database, the applicaition displays their information.</p>
                     </div>
                 </div>
 
