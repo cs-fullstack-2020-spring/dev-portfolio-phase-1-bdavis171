@@ -14,7 +14,7 @@ class ResumePage extends Component {
                 </div>
 
                 <div id="resume-pdf">
-              <object data="./resume.pdf#page=1" type="application/pdf" width='600px' height='800px'>Not here</object>
+              <object id="resume" data="./resume.pdf#page=1" type="application/pdf" width='600px' height='508px'>Not here</object>
                 </div>
             </div>
          );

@@ -93,7 +93,7 @@
 #about-description p {
   position: relative;
   top: 50%;
-  background-color: #1569C7;
+  background-color: #172b42;
   color: #C0C0C0;
   padding: 1%;
   border-radius: 10px;
@@ -256,6 +256,6 @@ left: 40%;
   /* height: 681.5px; */
 }
 
-#resume-pdf{
+#resume, iframe{
   overflow: hidden;
 }
