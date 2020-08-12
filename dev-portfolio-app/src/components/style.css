@@ -73,6 +73,7 @@
   width: 20%;
   position: relative;
   left: 42%;
+  font-size: xx-large;
 }
 
 #about-img {
@@ -112,19 +113,19 @@
 #project-1 {
   grid-column: 1;
   grid-row: 2;
-  animation: slidein 3s;
+  animation: fadeIn 3s;
 }
 
 #project-2 {
   grid-column: 2;
   grid-row: 2;
-  animation: slidein 4s;
+  animation: fadeIn 4s;
 }
 
 #project-3 {
   grid-column: 3;
   grid-row: 2;
-  animation: slidein 5s;
+  animation: fadeIn 5s;
 }
 
 
@@ -141,39 +142,55 @@
 
 #education-1, #education-2 {
   padding: 1%;
+  padding-top: 0%;
   text-align: left;
   position: relative;
   left: 25%;
-  background-color: #1569C7;
+  background-color: #8299b3;
   width: 50%;
+  height: 148px;
+}
+
+#education-1{
+  height: 148.4px;
 }
 
 #education-1 a{
   position: relative; left: 72%;
-  bottom: 99px;
+  bottom: 139px;
+}
+
+#education-2{
+  position: relative;top: 10%;
 }
 
 #education-2 a{
-  position: relative; left: 69%;
-  bottom: 99px;
+  position: relative; left: 74%;
+  bottom: 140px;
+}
+
+#education-description{
+  margin-bottom: 9.7%;
 }
 
 #project-1-description, #project-2-description, #project-3-description {
   border: 2px solid black;
-  background-color: #1569C7;
+  background-color: #13283f;
   color: #C0C0C0;
   padding: 1%;
 }
 
 #skills-img {
   padding: 1%;
-  width: 49%;
+  width: 59%;
+  /* height: 90%; */
   display: grid;
   grid-template-columns: repeat(3, 200px);
   position: relative;
   left: 30%;
-  background-color: #1569C7;
+  /* background-color: #1569C7; */
   border-radius: 10px;
+  margin-bottom: 4.7%;
 }
 
 #general-header {
@@ -184,10 +201,12 @@
   text-align: left;
   padding: 1%;
   background-color: #C0C0C0;
+  /* height: 100%; */
 }
 
 #footer span {
   margin-right: 3%;
+  /* margin-top: 50%; */
 }
 
 #footer a {
@@ -203,35 +222,40 @@
 
 #javascript {
   position: relative;
-  left: 5%;
+  left: 65%;
   top: 17%;
 }
 
 #react {
   position: relative;
-  left: -21%;
-  top: -1%;
+  left: -79%;
+  top: 29%;
 }
 
 #cplusplus {
   position: relative;
   left: 6%;
-  top: 3%;
+  top: 29%;
 }
 
 #html5 {
   position: relative;
   top: 1%;
+  left: -60%;
 }
 
 #node{
   position: relative;
-top: 10%;
-left: 22%;
+top: 39%;
+left: 40%;
 }
 
 #page-display {
-  width: 1585px;
-  height: 802.812px;
+  width: 100%;
+  /* height: 90%; */
   /* height: 681.5px; */
+}
+
+#resume-pdf{
+  overflow: hidden;
 }

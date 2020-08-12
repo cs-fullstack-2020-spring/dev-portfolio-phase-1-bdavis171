@@ -27,14 +27,14 @@ class ProjectsPage extends Component {
 
                 <div id="project-2">
                     <div id="project-2-img">
-                        <a href="https://github.com/bdavis171/Coding_Projects/tree/master/pokemon-battle-1" target='_blank'>
-                        <img src="/pkebtl1-img.png" alt="Project 2"/>
+                        <a href="https://trex-logistics.herokuapp.com/" target='_blank'>
+                        <img src="/trex-logistics-image.png" alt="Project 2"/>
                         </a>
                     </div>
 
                     <div id="project-2-description">
-                        <p><em>Pokemon Battle: Typholsion vs Blastoise:</em></p>
-                        <p>This is game that simulates a battle between two pokemon, Typholsion, the Volcano Pokemon, and Blastoise, the Shellfish Pokemon. Take control of Typholsion and try to defeat the Blastoise that stands before you.</p>
+                        <p><em>Trex Logistics</em></p>
+                        <p>This application allows users to send packages and check the status of packages that they have sent or are recieving.</p>
                     </div>
                 </div>
 

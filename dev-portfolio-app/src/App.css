@@ -4,7 +4,9 @@
 }
 
 html{
-  background-image: url('/data-background.jpg');
+  /* background-image: url('/data-background.jpg'); */
+  background-color: #0e689c;
+  /* overflow: hidden; */
 }
 
 .App-logo {

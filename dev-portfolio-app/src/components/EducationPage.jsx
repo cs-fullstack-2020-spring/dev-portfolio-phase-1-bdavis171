@@ -18,6 +18,7 @@ class EducationPage extends Component {
                         <h4>Memphis, TN</h4>
                         <ul>
                             <li>Software Development Bootcamp</li>
+                            <li>Microsoft Technology Associate: Inroduction to <br/> Programming Using JavaScript</li>
                         </ul>
                         <a href="https://www.code-crew.org/" target="_blank"><img src="/codecrewlogo.png" alt="CodeCrew"/></a>
                     </div>
@@ -27,8 +28,9 @@ class EducationPage extends Component {
                         <h4>Memphis, TN</h4>
                         <ul>
                             <li>GPA: 4.0</li>
+                            <li>High School Diploma</li>
                         </ul>
-                        <a href="https://schools.scsk12.org/central-hs" target="_blank"><img src="/centralhighlogo.png" alt="Central High School"/></a>
+                        <a href="https://schools.scsk12.org/central-hs" target="_blank"><img src="/centralhighlogo.png" alt="Central High School" width="150px"/></a>
                     </div>
                 </div>
             </div>

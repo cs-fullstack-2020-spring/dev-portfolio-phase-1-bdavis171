@@ -92,7 +92,7 @@ class AboutPage extends Component {
                 </div>
 
                 <div id="about-img">
-                    <img src="/myimg.jpg" alt="Brandon Davis" />
+                    <img src="/myimg.jpg" alt="Brandon Davis" width="500px"/>
                 </div>
 
                 <div id="about-description">
