@@ -40,7 +40,7 @@ class ProjectsPage extends Component {
 
                 <div id="project-3">
                     <div id="project-3-img">
-                        <a href="https://github.com/bdavis171/Coding_Projects/tree/master/character-bio-app" target='_blank'>
+                        <a href="https://create-character-bio.herokuapp.com/" target='_blank'>
                         <img src="/character-bio.png" alt="Project 3"/>
                         </a>
                     </div>
